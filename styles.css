@@ -64,10 +64,14 @@ section {
     background-color: yellow;
 }
 
-#sobre #text-container h2,p {
+#sobre #text-container h1,p {
     margin-left: 6rem;
     margin-right: 3rem;
     text-align: justify;
+}
+
+#sobre #text-container h1 {
+    font-size: 3rem;
 }
 
 #sobre #img-container {

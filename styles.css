@@ -74,6 +74,10 @@ section {
     font-size: 3rem;
 }
 
+#sobre #text-container p {
+    margin-top: 0.8rem;
+}
+
 #sobre #img-container {
     display: flex;
     position: relative;

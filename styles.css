@@ -71,10 +71,22 @@ section {
 }
 
 #sobre #img-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 100%;
     background-color: yellowgreen;
 }
+
+#sobre #img-container img {
+    height: 20rem;
+    width: auto;
+}
+
+
 
 
 

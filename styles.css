@@ -107,6 +107,11 @@ nav .nav-items .nav-item {
     height: auto;
     background-color: violet;
 }
+
+#container {
+    width: 100%;
+}
+
 #proyectos #container h1{
     
     margin-left: 6rem;
@@ -117,10 +122,11 @@ nav .nav-items .nav-item {
 #proyectos-container {
     display: flex;
     position: relative;
-    margin: 6rem;
+    margin: 6rem 0;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .proyecto {

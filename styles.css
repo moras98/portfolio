@@ -123,26 +123,35 @@ nav .nav-items .nav-item {
     align-items: center;
 }
 
-#excursion {
+.proyecto {
     border: solid 1px white;
     border-radius: 10%;
     overflow: hidden;
-}
-
-.proyecto {
     display: flex;
     position: relative;
     flex-direction: column;
     margin: 2rem;
 }
 
-#excursion .proyecto-imagen {
+.proyecto-imagen {
     height: 16rem;
     width: 24rem;
-    background-image: url(https://swashvillage.org/storage/img/images_1/steve-jobs-biography_2.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
+
+#excursion .proyecto-imagen {
+    background-image: url(./resources/images/proyectos/excursion.png);
+}
+
+#tea-cozy .proyecto-imagen {
+    background-image: url(./resources/images/proyectos/tea-cozy.png);
+}
+
+#agencia .proyecto-imagen {
+    background-image: url(./resources/images/proyectos/agencia.png);
+}
+
 
 .descripcion-proyecto {
     width: 24rem;

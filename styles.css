@@ -159,7 +159,7 @@ nav .nav-items .nav-item {
     text-decoration: underline;
 }
 
-.descripcion-proyecto,p {
+.descripcion-proyecto p {
     width: 100%;
     margin: 0.25rem 2rem;
 }
@@ -171,6 +171,50 @@ nav .nav-items .nav-item {
     height: 90vh;
     background-color: yellow;
 }
+
+#habilidades #container-todo {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+}
+
+#container-todo h1, p {
+    margin-left: 6rem;
+    margin-top: 0rem;
+}
+
+#container-habilidades {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#container-habilidades img {
+    height: 10rem;
+    width: 10rem;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);;
+    margin: 3rem;
+}
+
+#container-habilidades img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+
+
 
 /*FOOTER*/
 

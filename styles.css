@@ -104,7 +104,7 @@ nav .nav-items .nav-item {
 /*PROYECTOS*/
 
 #proyectos {
-    height: 100vh;
+    height: auto;
     background-color: violet;
 }
 #proyectos #container h1{
@@ -133,7 +133,7 @@ nav .nav-items .nav-item {
     display: flex;
     position: relative;
     flex-direction: column;
-    cursor: pointer;
+    margin: 2rem;
 }
 
 #excursion .proyecto-imagen {
@@ -147,11 +147,21 @@ nav .nav-items .nav-item {
 .descripcion-proyecto {
     width: 24rem;
     text-align: justify;
+    display: block;
+    padding: 0.5rem 0;
+    margin-left: 0.1rem;
 }
 
-.descripcion-proyecto h3,p {
+.descripcion-proyecto summary {
+    cursor: pointer;
+    list-style: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.descripcion-proyecto,p {
     width: 100%;
-    margin: 0.5rem 2rem;
+    margin: 0.25rem 2rem;
 }
 
 

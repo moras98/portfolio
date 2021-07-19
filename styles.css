@@ -166,6 +166,7 @@ nav .nav-items .nav-item {
     list-style: none;
     font-weight: bold;
     text-decoration: underline;
+    margin-left: 1rem;
 }
 
 .descripcion-proyecto p {

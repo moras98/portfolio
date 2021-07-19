@@ -47,6 +47,7 @@ section {
     position: relative;
 }
 
+
 #sobre {
     height: 100vh;
     background-color: teal;
@@ -98,12 +99,19 @@ section {
 
 
 
-
-
-#projectos {
+#proyectos {
     height: 100vh;
     background-color: violet;
 }
+
+#proyectos #excursion {
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+
 
 #habilidades {
     height: 90vh;

@@ -183,7 +183,11 @@ nav .nav-items .nav-item {
     background-color: yellow;
 }
 
-#container-todo h1, p {
+#container-todo {
+    width: 100%;
+}
+
+#container-todo h1 {
     margin-left: 6rem;
     margin-top: 0rem;
 }
@@ -201,8 +205,8 @@ nav .nav-items .nav-item {
 }
 
 #container-habilidades img {
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
     filter: grayscale(1);
     -webkit-filter: grayscale(1);;
     margin: 3rem;

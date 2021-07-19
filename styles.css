@@ -4,10 +4,24 @@
     font-size: 16px;
 }
 
+/*GENERAL*/
+
 body {
     width: 100%;
     overflow: auto;
 }
+
+section {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+/*NAVBAR*/
 
 nav {
     width: 100%;
@@ -40,13 +54,7 @@ nav .nav-items .nav-item {
     text-decoration: underline;
 }
 
-
-section {
-    width: 100%;
-    display: flex;
-    position: relative;
-}
-
+/*SOBRE*/
 
 #sobre {
     height: 100vh;
@@ -72,10 +80,6 @@ section {
     text-align: justify;
 }
 
-#sobre #text-container h1 {
-    font-size: 3rem;
-}
-
 #sobre #text-container p {
     margin-top: 0.8rem;
     font-size: 1.2rem;
@@ -97,27 +101,68 @@ section {
     width: auto;
 }
 
-
+/*PROYECTOS*/
 
 #proyectos {
     height: 100vh;
     background-color: violet;
 }
+#proyectos #container h1{
+    
+    margin-left: 6rem;
+    margin-top: 6rem;
+    text-align: justify;
+}
 
-#proyectos #excursion {
-    height: 100%;
-    width: 50%;
-    background-color: aqua;
+#proyectos-container {
+    display: flex;
+    position: relative;
+    margin: 6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#excursion {
+    border: solid 1px white;
+    border-radius: 10%;
     overflow: hidden;
 }
 
+.proyecto {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    cursor: pointer;
+}
 
+#excursion .proyecto-imagen {
+    height: 16rem;
+    width: 24rem;
+    background-image: url(https://swashvillage.org/storage/img/images_1/steve-jobs-biography_2.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+.descripcion-proyecto {
+    width: 24rem;
+    text-align: justify;
+}
+
+.descripcion-proyecto h3,p {
+    width: 100%;
+    margin: 0.5rem 2rem;
+}
+
+
+/*HABILIDADES*/
 
 #habilidades {
     height: 90vh;
     background-color: yellow;
 }
 
+/*FOOTER*/
 
 footer {
     display: flex;

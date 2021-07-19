@@ -120,6 +120,7 @@ nav .nav-items .nav-item {
 #sobre #img-container img {
     height: 20rem;
     width: auto;
+    border-radius: 50%;
 }
 
 /*PROYECTOS*/

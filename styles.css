@@ -18,7 +18,21 @@ section {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
 }
 
 /*NAVBAR*/
@@ -35,23 +49,30 @@ nav {
 
 nav h2 {
     margin: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 nav .nav-items {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
 }
 
 nav .nav-items .nav-item {
     list-style: none;
     margin: 1.5rem;
     font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 15%;
+    padding: 1rem;
+}
+
+.nav-item:hover {
+    background-color: white;
 }
 
 .nav-item a {
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /*SOBRE*/
@@ -170,7 +191,8 @@ nav .nav-items .nav-item {
 .descripcion-proyecto summary {
     cursor: pointer;
     list-style: none;
-    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
     text-decoration: underline;
     margin-left: 1rem;
 }
@@ -244,4 +266,13 @@ footer {
     width: 100%;
     height: 10vh;
     background-color: yellowgreen;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
 }

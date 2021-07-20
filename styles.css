@@ -351,13 +351,13 @@ footer p {
 }
 
 #github-c {
-    background-image: url(../resources/images/contacto/github-c.png);
+    background-image: url(./resources/images/contacto/github-c.png);
 }
 
 #email {
-    background-image: url(../resources/images/contacto/email.png);
+    background-image: url(./resources/images/contacto/email.png);
 }
 
 #linkedin {
-    background-image: url(../resources/images/contacto/linkedin.png);
+    background-image: url(./resources/images/contacto/linkedin.png);
 }
